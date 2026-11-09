@@ -120,6 +120,8 @@ The helper script stops and removes any existing container named `laravel-admin-
 
 ## Credits & technology
 
+The Laravel AdminLTE 3 project was built using several libraries and open-source packages (open-source) third parties. A lot of thanks to the web community: 
+
 - [Laravel](https://laravel.com) - PHP application framework.
 - [AdminLTE 3](https://adminlte.io) - Bootstrap-based admin dashboard template.
 - [Bootstrap 4](https://getbootstrap.com) - Responsive CSS framework.
