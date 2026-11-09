@@ -1,0 +1,24 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+    container_name: laravel-admin-lte-3
+    restart: unless-stopped
+    network_mode: host
+    env_file:
+      - .env
+    volumes:
+      - .:/app:Z
+      - /app/vendor
+      - ./storage:/app/storage:Z
+      - ./docker/php/Caddyfile:/etc/caddy/Caddyfile:Z
+      - ./docker/php/php.ini:/usr/local/etc/php/conf.d/99-custom.ini:Z
+      - caddy_data_laravel-admin-lte-3:/data
+      - caddy_config_laravel-admin-lte-3:/config
+
+volumes:
+  caddy_data_laravel-admin-lte-3:
+    driver: local
+  caddy_config_laravel-admin-lte-3:
+    driver: local
