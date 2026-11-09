@@ -20,7 +20,7 @@
                             <p class="text-muted">AdminLTE 3 for Laravel.</p>
 
                             <p class="text-muted px-4">
-                                The AdminLTE 3 dashboard template is fully integrated with Laravel’s built-in authentication system and a ready-made database to speed up your application development.
+                                A Laravel starter application integrated with AdminLTE 3. It includes authentication, a dashboard, profile pages, and user management, with FrankenPHP support for local development and Docker or Podman containers.
                             </p>
 
                             <div class="text-center">
@@ -62,10 +62,13 @@
                                 The Laravel AdminLTE 3 project was built using several libraries and open-source packages (open-source) third parties. A lot of thanks to the web community:
                             </p>
                             <ul class="text-muted mb-0">
-                                <li class="mb-2"><a href="https://laravel.com" target="_blank">Laravel</a> - Open source PHP framework for web artisan.</li>
-                                <li class="mb-2"><a href="https://adminlte.io" target="_blank">AdminLTE v3</a> - Bootstrap-based open-source admin dashboard template 4.</li>
-                                <li class="mb-2"><a href="https://getbootstrap.com" target="_blank">Bootstrap 4</a> - CSS framework for responsive web design.</li>
-                                <li><a href="https://fontawesome.com" target="_blank">Font Awesome</a> - A collection of vector icons and web toolskits.</li>
+                                <li class="mb-2"><a href="https://laravel.com" target="_blank">Laravel</a> - PHP application framework.</li>
+                                <li class="mb-2"><a href="https://adminlte.io" target="_blank">AdminLTE v3</a> - Bootstrap-based admin dashboard template.</li>
+                                <li class="mb-2"><a href="https://getbootstrap.com" target="_blank">Bootstrap 4</a> - Responsive CSS framework.</li>
+                                <li class="mb-2"><a href="https://fontawesome.com" target="_blank">Font Awesome</a> - Icon toolkit.</li>
+                                <li class="mb-2"><a href="https://frankenphp.dev" target="_blank">FrankenPHP</a> - PHP application server.</li>
+                                <li class="mb-2"><a href="https://www.docker.com" target="_blank">Docker</a> - Container engines.</li>
+                                <li class="mb-2"><a href="https://podman.io" target="_blank">Podman</a> - Container engines.</li>
                             </ul>
                         </div>
                     </div>
