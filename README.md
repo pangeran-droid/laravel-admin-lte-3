@@ -18,7 +18,7 @@
 <h1 align="center">Laravel AdminLTE 3</h1>
 
 <p align="center">
-A Laravel starter application integrated with [AdminLTE 3](https://adminlte.io). It includes authentication, a dashboard, profile pages, and user management, with FrankenPHP support for local development and Docker or Podman containers.
+A Laravel starter application integrated with <a href="https://adminlte.io">AdminLTE 3</a>. It includes authentication, a dashboard, profile pages, and user management, with FrankenPHP support for local development and Docker or Podman containers.
 </p>
 
 | Laravel Version | Branch |
